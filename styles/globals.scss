@@ -1,0 +1,14 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1b1b1b;
+}
+
+p {
+  margin: 0;
+}
+
+.simplebar-scrollbar::before {
+  background-color: dimgray !important;
+}

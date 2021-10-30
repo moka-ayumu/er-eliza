@@ -1,0 +1,9 @@
+.equipment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px;
+  > div {
+    background-color: rgba(83, 83, 83, 0.322);
+    border-radius: 0 10px;
+  }
+}

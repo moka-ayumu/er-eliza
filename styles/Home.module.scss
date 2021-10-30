@@ -1,0 +1,33 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+  }
+}
+
+.radio {
+  display: flex;
+}
+
+.search {
+  width: 50vw;
+  height: 40px;
+  border-radius: 0 20px;
+  padding: 5px 13px;
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.253);
+  color: white;
+  border: 0;
+}

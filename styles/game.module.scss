@@ -1,0 +1,124 @@
+.main {
+  color: white;
+  display: flex;
+  padding: 50px;
+}
+
+.minimap {
+  position: relative;
+  display: flex;
+  width: 820px;
+  min-width: 820px;
+  height: 820px;
+  min-height: 820px;
+}
+
+.areas {
+  transform: rotate(-45deg);
+  transform-origin: top;
+  z-index: 10;
+  > div {
+    position: absolute;
+    // background-color: gray;
+    display: flex;
+    > div {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  //   width: calc(100% - 900px);
+  gap: 10px;
+  width: 100%;
+  min-width: 980px;
+  // padding: 20px;
+}
+
+.idTitle {
+  font-size: 40px;
+  text-align: right;
+}
+
+.mostStats {
+  display: flex;
+  gap: 1%;
+  > div {
+    display: flex;
+    gap: 5px;
+    min-width: 300px;
+    width: 32%;
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 0 30px;
+  }
+}
+
+.mostStatTitle {
+  font-size: 20px;
+}
+
+.mostStatImg {
+  border-radius: 20px;
+  //   filter: drop-shadow(0 0 0.2rem black);
+  background: linear-gradient(
+    to right bottom,
+    rgb(60, 60, 60),
+    rgb(60, 60, 60) 50%,
+    rgb(51, 51, 51) 51%
+  );
+}
+
+.mostStatDetail {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+  > p > span {
+    font-size: 15px;
+  }
+}
+
+.mostStatDetailData {
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mostStatDetailRank {
+  font-size: 15px;
+}
+
+.userGame {
+  display: flex;
+  height: 100px;
+  min-width: 800px;
+}
+
+.detail {
+  > div {
+    > svg {
+      > line {
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-dasharray: 134;
+      }
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.userGames {
+  display: flex;
+  gap: 10px;
+}
