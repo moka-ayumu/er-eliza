@@ -5,6 +5,9 @@
   <img src="https://github.com/moka-ayumu/er-eliza/blob/5cdbd0391559becf7af1d1e4eb8cf7d5f7deeb95/readme_files/er-eliza.gif" alt="previe" />
 </p>
 
+## Technology Stack
+Next.js(SSR, Incremental Static Generation)
+
 ## Functions (To Do)
 - [ ] Image
 - [ ] Font
